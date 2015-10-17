@@ -5,7 +5,7 @@ using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using LoLWD;
-using LoLWD.Controllers;
+using LoLWD.Web.Controllers;
 
 namespace LoLWD.Tests.Controllers
 {
