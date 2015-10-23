@@ -263,6 +263,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoLWD.Core\LoLWD.Core.csproj">
+      <Project>{5ff2377c-41da-4a17-82b3-6f467b912f01}</Project>
+      <Name>LoLWD.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoLWD.Data\LoLWD.Data.csproj">
+      <Project>{0fe2c545-1b4f-4ae0-bc48-9b92953984d9}</Project>
+      <Name>LoLWD.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

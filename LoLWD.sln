@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoLWD.Tests", "LoLWD.Tests\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoLWD.Web", "LoLWD.Web\LoLWD.Web.csproj", "{3314AB5F-2185-4343-8270-FC9866661BA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoLWD.Data", "LoLWD.Data\LoLWD.Data.csproj", "{0FE2C545-1B4F-4AE0-BC48-9B92953984D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoLWD.Core", "LoLWD.Core\LoLWD.Core.csproj", "{5FF2377C-41DA-4A17-82B3-6F467B912F01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{3314AB5F-2185-4343-8270-FC9866661BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3314AB5F-2185-4343-8270-FC9866661BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3314AB5F-2185-4343-8270-FC9866661BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE2C545-1B4F-4AE0-BC48-9B92953984D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE2C545-1B4F-4AE0-BC48-9B92953984D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE2C545-1B4F-4AE0-BC48-9B92953984D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE2C545-1B4F-4AE0-BC48-9B92953984D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF2377C-41DA-4A17-82B3-6F467B912F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF2377C-41DA-4A17-82B3-6F467B912F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF2377C-41DA-4A17-82B3-6F467B912F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF2377C-41DA-4A17-82B3-6F467B912F01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
