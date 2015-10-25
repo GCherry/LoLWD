@@ -5,9 +5,24 @@ namespace LoLWD.Data.Context
 {
     public class LoLDBContext : DbContext
     {
+        #region Constructors
+
+        public LoLDBContext() : base(ConnectionStringName)
+        {
+        }
+
+        static LoLDBContext()
+        {
+            ConnectionStringName = "LoLConnection";
+        }
+
+        #endregion
+
         #region Properties
 
         public static string ConnectionStringName { get; set; }
+
+        //public IDbSet<Champion> Champions { get; set; }
 
         #endregion
 
@@ -22,17 +37,6 @@ namespace LoLWD.Data.Context
 
         #endregion
 
-        #region Constructors
 
-        public LoLDBContext() : base(ConnectionStringName)
-        {
-        }
-
-        static LoLDBContext()
-        {
-            ConnectionStringName = "LoLConnection";
-        }
-
-        #endregion
     }
 }
