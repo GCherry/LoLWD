@@ -56,10 +56,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Enums\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Models\" />
-    <Folder Include="Services\" />
+    <Folder Include="Managers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoLWD.Data\LoLWD.Data.csproj">
+      <Project>{0fe2c545-1b4f-4ae0-bc48-9b92953984d9}</Project>
+      <Name>LoLWD.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoLWD.Shared\LoLWD.Shared.csproj">
+      <Project>{2dffbacf-dbfe-4b93-b8a1-dbd5a71c2e0c}</Project>
+      <Name>LoLWD.Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

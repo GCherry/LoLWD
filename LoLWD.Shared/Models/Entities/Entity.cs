@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace LoLWD.Core.Models.Entities
+namespace LoLWD.Shared.Models.Entities
 {
-    public class BaseEnity
+    public class Entity
     {
         #region Properties
 
