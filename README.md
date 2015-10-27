@@ -1,3 +1,3 @@
 # LoLWD
-Web work
+Web work.
 Stats
