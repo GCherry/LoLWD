@@ -50,6 +50,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\LoLDBContext.cs" />
+    <Compile Include="Migrations\201510272131350_init.cs" />
+    <Compile Include="Migrations\201510272131350_init.Designer.cs">
+      <DependentUpon>201510272131350_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="ModelMaps\BaseEnityModelMap.cs" />
+    <Compile Include="ModelMaps\UserModelMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -57,7 +64,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ModelMaps\" />
+    <EmbeddedResource Include="Migrations\201510272131350_init.resx">
+      <DependentUpon>201510272131350_init.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LoLWD.Shared\LoLWD.Shared.csproj">
