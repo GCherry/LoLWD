@@ -1,5 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using LoLWD.Data.ModelMaps;
+using LoLWD.Shared.Models.Entities;
 
 namespace LoLWD.Data.Context
 {
@@ -22,7 +24,7 @@ namespace LoLWD.Data.Context
 
         public static string ConnectionStringName { get; set; }
 
-        //public IDbSet<Champion> Champions { get; set; }
+        public IDbSet<User> Users { get; set; }
 
         #endregion
 
@@ -32,7 +34,7 @@ namespace LoLWD.Data.Context
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
-            //modelBuilder.Configurations.Add(new ChampionModelMap());
+            modelBuilder.Configurations.Add(new UserModelMap());
         }
 
         #endregion

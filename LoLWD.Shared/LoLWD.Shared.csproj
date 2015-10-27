@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Interfaces\IManager.cs" />
     <Compile Include="Models\Entities\Entity.cs" />
+    <Compile Include="Models\Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
