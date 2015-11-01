@@ -25,7 +25,7 @@ namespace LoLWD.Data.Context
         public static string ConnectionStringName { get; set; }
 
         public IDbSet<User> Users { get; set; }
-        public IDbSet<Contact> Contact { get; set; }
+        public IDbSet<Contact> Contacts { get; set; }
 
         #endregion
 

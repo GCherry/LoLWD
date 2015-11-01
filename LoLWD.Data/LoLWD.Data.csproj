@@ -58,6 +58,10 @@
     <Compile Include="Migrations\201511012155224_AddContactTable.Designer.cs">
       <DependentUpon>201511012155224_AddContactTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511012221455_AlterContactReqiredFields.cs" />
+    <Compile Include="Migrations\201511012221455_AlterContactReqiredFields.Designer.cs">
+      <DependentUpon>201511012221455_AlterContactReqiredFields.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelMaps\BaseEnityModelMap.cs" />
     <Compile Include="ModelMaps\ContactModelMap.cs" />
@@ -74,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511012155224_AddContactTable.resx">
       <DependentUpon>201511012155224_AddContactTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511012221455_AlterContactReqiredFields.resx">
+      <DependentUpon>201511012221455_AlterContactReqiredFields.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

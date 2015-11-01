@@ -8,9 +8,9 @@ namespace LoLWD.Data.ModelMaps
 
         public ContactModelMap()
         {
-            Property(x => x.Name).IsRequired().HasMaxLength(200);
+            Property(x => x.Name).IsOptional().HasMaxLength(200);
             Property(x => x.Email).IsRequired().HasMaxLength(200);
-            Property(x => x.Comment).IsOptional().HasMaxLength(700);
+            Property(x => x.Comment).IsRequired().HasMaxLength(700);
 
             ToTable("Contact");
         }
