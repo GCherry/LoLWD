@@ -25,6 +25,7 @@ namespace LoLWD.Data.Context
         public static string ConnectionStringName { get; set; }
 
         public IDbSet<User> Users { get; set; }
+        public IDbSet<Contact> Contacts { get; set; }
 
         #endregion
 
@@ -35,6 +36,7 @@ namespace LoLWD.Data.Context
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
             modelBuilder.Configurations.Add(new UserModelMap());
+            modelBuilder.Configurations.Add(new ContactModelMap());
         }
 
         #endregion
