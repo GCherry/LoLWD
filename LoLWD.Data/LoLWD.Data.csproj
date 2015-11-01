@@ -54,8 +54,13 @@
     <Compile Include="Migrations\201510272131350_init.Designer.cs">
       <DependentUpon>201510272131350_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511012155224_AddContactTable.cs" />
+    <Compile Include="Migrations\201511012155224_AddContactTable.Designer.cs">
+      <DependentUpon>201511012155224_AddContactTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelMaps\BaseEnityModelMap.cs" />
+    <Compile Include="ModelMaps\ContactModelMap.cs" />
     <Compile Include="ModelMaps\UserModelMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,6 +71,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201510272131350_init.resx">
       <DependentUpon>201510272131350_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511012155224_AddContactTable.resx">
+      <DependentUpon>201511012155224_AddContactTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
